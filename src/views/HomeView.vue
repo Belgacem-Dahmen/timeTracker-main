@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <main>
+  <main class="bg-blue-app">
     <p>hello</p>
   </main>
 </template>
