@@ -1,7 +1,14 @@
-<script setup></script>
+<script setup>
+import CardGrid from '@/components/CardGrid.vue'
+import SideHeader from '@/components/SideHeader.vue'
+</script>
 
 <template>
-  <main class="bg-blue-app">
-    <p>hello</p>
+  <main>
+  <div class="flex">
+    <SideHeader />
+    <CardGrid />
+  </div>
+   
   </main>
 </template>
